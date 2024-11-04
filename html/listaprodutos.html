@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+        }
+        .w3-bar {
+            background-color: #fed951; /* Amarelo*/
+        }
+        .w3-button {
+            color: rgb(23, 30, 51);
+        }
+        header, .w3-container {
+            background-color: #e3780d; /* laranja */
+            color: rgb(23, 30, 51);
+        }
+        .w3-card {
+            background-color: #faf999; /* Amarelo Claro */
+        }
+        h2, p {
+            color: #171e28; /* Azul escuro */
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .logo {
+            height: 40px; /* Ajuste o tamanho conforme necessário */
+            margin-right: 10px;
+
+        }
+        
+            </style>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <div class="w3-bar">
+        <a href="index.html" class="w3-bar-item">
+            <img src="../img/logo.png" alt="Logo" class="logo"> <!-- Caminho da sua logo -->
+        </a>
+        <a href="../index.html" class="w3-bar-item w3-button">Início</a>
+        <a href="sobre.html" class="w3-bar-item w3-button">Sobre</a>
+        <a href="contato.html" class="w3-bar-item w3-button">Contato</a>
+        <a href="produtos.html" class="w3-bar-item w3-button">Cadastrar Produto</a>
+        <a href="listaprodutos.html" class="w3-bar-item w3-button">Lista de Produtos</a>
+    </div>
+    <!-- Lista de Produtos -->
+   <div class="w3-container w3-padding-32 fontMain">
+        <h2>Lista de Produtos</h2>
+        <div id="listaProdutos" class="w3-container"></div>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
